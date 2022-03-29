@@ -22,8 +22,7 @@ Install this extension from PyPI_::
 
    pip install sphinxcontrib-gitinclude
 
-The extension requires Sphinx 3.7.0 and Python Python 3 (Python
-3.6+ is tested) at least.
+The extension requires Sphinx 3.7.0 and Python 3 (Python 3.7+ is tested) at least.
 
 Usage
 =====
@@ -34,20 +33,6 @@ Just add this extension to ``extensions``::
 
 Now you can use a new directive ``gitinclude`` to
 insert code from a git repository. 
-
-Please refer to the documentation_ for comprehensive information about usage and
-configuration of this extension.
-
-Development and Support
-=======================
-
-Please refer to the documentation_ for information on support and the
-development process.
-
-Credits
-=======
-
-This extension is heavily based on sphinxcontrib-programoutput.
 
 .. _Sphinx: http://www.sphinx-doc.org/en/stable/
 .. _PyPI: http://pypi.python.org/pypi/sphinxcontrib-gitinclude

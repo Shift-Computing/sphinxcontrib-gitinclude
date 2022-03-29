@@ -1,0 +1,2 @@
+example/build/**
+src/sphinxcontrib_gitinclude.egg-info/**
