@@ -10,12 +10,15 @@ Welcome to examle's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-.. gitinclude:: pwman/ui/cli.py /home/oznt/Software/pwman3/ v0.9.11
+.. gitinclude:: pwman/ui/cli.py v0.9.11 /home/oznt/Software/pwman3/
    :language: python
 
-.. gitinclude:: pwman/ui/cli.py /home/oznt/Software/pwman3/ v0.9.11
+.. gitinclude:: pwman/ui/cli.py v0.9.11 /home/oznt/Software/pwman3/
    :language: python
    :diff: v0.9.1
+
+.. gitinclude:: pwman/ui/cli.py v0.9.1
+   :language: python
 
 .. code:: python
 
