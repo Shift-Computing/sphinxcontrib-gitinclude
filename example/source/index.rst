@@ -25,8 +25,10 @@ Include __init__.py with specifying a path to the repository (relative):
 .. gitinclude:: src/sphinxcontrib/gitinclude/__init__.py main ..
    :language: python
 
-.. gitinclude:: pwman/ui/cli.py v0.9.1
-   :diff: v0.9.0
+Show a diff using hashes, feel free to use any git tag or ref:
+
+.. gitinclude:: example/source/conf.py fe074165f6ad764812398dfeeaf6323d3ea428ed
+   :diff: 92e1ac5da036491225a357af4e8045fd59b2bdcd
    :language: python
 
 .. code:: python
