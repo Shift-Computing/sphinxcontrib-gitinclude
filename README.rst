@@ -14,7 +14,6 @@ https://sphinxcontrib-gitinclude.readthedocs.org
 A Sphinx_ extension to insert code snippets from a git repository,
 helping you to keep a repository of versions working code examples.
 
-
 Installation
 ============
 
@@ -33,6 +32,9 @@ Just add this extension to ``extensions``::
 
 Now you can use a new directive ``gitinclude`` to
 insert code from a git repository. 
+
+For more information on how to use this project see the example directory
+with a project that uses this directive.
 
 .. _Sphinx: http://www.sphinx-doc.org/en/stable/
 .. _PyPI: http://pypi.python.org/pypi/sphinxcontrib-gitinclude
