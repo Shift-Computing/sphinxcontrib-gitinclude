@@ -10,14 +10,23 @@ Welcome to examle's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-.. gitinclude:: pwman/ui/cli.py v0.9.11 /home/oznt/Software/pwman3/
+Include setup.py without specifying the path to the git repo (uses the one in conf.py)
+
+.. gitinclude:: setup.py main
    :language: python
 
-.. gitinclude:: pwman/ui/cli.py v0.9.11 /home/oznt/Software/pwman3/
+Include __init__.py with specifying a path to the repository (absolute):
+
+.. gitinclude:: src/sphinxcontrib/gitinclude/__init__.py main /home/oznt/Software/sphinxcontrib-gitinclude
    :language: python
-   :diff: v0.9.1
+
+Include __init__.py with specifying a path to the repository (relative):
+
+.. gitinclude:: src/sphinxcontrib/gitinclude/__init__.py main ..
+   :language: python
 
 .. gitinclude:: pwman/ui/cli.py v0.9.1
+   :diff: v0.9.0
    :language: python
 
 .. code:: python
