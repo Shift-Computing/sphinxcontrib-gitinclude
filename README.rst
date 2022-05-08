@@ -2,12 +2,8 @@
  sphinxcontrib-gitinclude
 =========================
 
-.. image:: https://github.com/oz123/sphinxcontrib-gitinclude/workflows/tests/badge.svg
-   :target: https://github.com/oz123/sphinxcontrib-gitinclude/actions?query=workflow%3Atests
-
-.. image:: https://coveralls.io/repos/github/o123/sphinxcontrib-gitinclude/badge.svg
-   :target: https://coveralls.io/github/github.com/sphinxcontrib-gitinclude
-
+.. image:: https://gitlab.com/shift-computing/sphinxcontrib-gitinclude/workflows/tests/badge.svg
+   :target: https://gitlab.com/shift-computing/sphinxcontrib-gitinclude/actions?query=workflow%3Atests
 
 https://sphinxcontrib-gitinclude.readthedocs.org
 
@@ -21,7 +17,7 @@ Install this extension from PyPI_::
 
    pip install sphinxcontrib-gitinclude
 
-The extension requires Sphinx 3.7.0 and Python 3 (Python 3.7+ is tested) at least.
+The extension requires Sphinx 3.7.0 or later and Python 3.7 or later.
 
 Usage
 =====
