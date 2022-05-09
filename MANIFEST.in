@@ -1,9 +1,6 @@
 include README.rst
 include LICENSE
-include CHANGES.*
-include tox.ini
-include .coveragerc
-include .pylintrc
+recursive-exclude .github *
+recursive-exclude test *
 recursive-include src *.py
-recursive-include doc *.rst *.py
-
+recursive-include example *.rst *.py
