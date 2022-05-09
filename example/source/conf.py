@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'examle'
-copyright = '2022, Oz'
-author = 'Oz'
+project = 'sphinxconrtib-gitinclude'
+copyright = '2022, Oz Tiram'
+author = 'Oz Tiram'
 
 
 # -- General configuration ---------------------------------------------------
