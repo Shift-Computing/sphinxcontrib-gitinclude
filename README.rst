@@ -2,10 +2,8 @@
  sphinxcontrib-gitinclude
 =========================
 
-.. image:: https://gitlab.com/shift-computing/sphinxcontrib-gitinclude/workflows/tests/badge.svg
-   :target: https://gitlab.com/shift-computing/sphinxcontrib-gitinclude/actions?query=workflow%3Atests
-
-https://sphinxcontrib-gitinclude.readthedocs.org
+.. image:: https://readthedocs.org/projects/sphinxcontrib-gitinclude/badge/?version=latest
+   :target: https://readthedocs.org/projects/sphinxcontrib-gitinclude/?badge=latest
 
 A Sphinx_ extension to insert code snippets from a git repository,
 helping you to keep a repository of versions working code examples.
