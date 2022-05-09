@@ -15,9 +15,9 @@ Include setup.py without specifying the path to the git repo (uses the one in co
 .. gitinclude:: setup.py main
    :language: python
 
-Include __init__.py with specifying a path to the repository (absolute):
+Include __init__.py with specifying a path to the repository (you can use absolute or relative paths):
 
-.. gitinclude:: src/sphinxcontrib/gitinclude/__init__.py main /home/oznt/Software/sphinxcontrib-gitinclude
+.. gitinclude:: src/sphinxcontrib/gitinclude/__init__.py main ..
    :language: python
 
 Include __init__.py with specifying a path to the repository (relative):
